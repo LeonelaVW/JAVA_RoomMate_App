@@ -10,6 +10,7 @@ public interface I_funcionesInternas {
 	boolean verDisponibilidadXFecha(Habitacion habitacion, Reserva inicio, Reserva fin);
 	void verHistorialXPasajero(Usuario DNI);
 	void verHistorialXHabitacion(Habitacion numero);
+	void cambiarEstadoHabitacion (Habitacion numero);
 	
 		
 	

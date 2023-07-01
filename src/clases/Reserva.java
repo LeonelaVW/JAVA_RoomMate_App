@@ -9,7 +9,7 @@ public class Reserva {
 	
 	//Constructor
 	/**
-	 * @param pasajero
+	 * @param Pasajero
 	 * @param habitacion
 	 * @param inicio
 	 * @param fin
@@ -24,7 +24,7 @@ public class Reserva {
 	//Metodos
 
 	/**
-	 * @return the pasajero
+	 * @return the Pasajero
 	 */
 	public Pasajero getPasajero() {
 		return pasajero;

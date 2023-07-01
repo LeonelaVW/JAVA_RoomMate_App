@@ -1,6 +1,6 @@
 package clases;
 
-public class categoriaHabitacion {
+public class CategoriaHabitacion {
 //Atributos 
 	private boolean baseSimple;
 	private String tipoHabitacion; 
@@ -10,7 +10,7 @@ public class categoriaHabitacion {
 	 * @param baseSimple
 	 * @param tipoHabitacion
 	 */
-	public categoriaHabitacion(boolean baseSimple, String tipoHabitacion) {
+	public CategoriaHabitacion(boolean baseSimple, String tipoHabitacion) {
 		super();
 		this.baseSimple = baseSimple;
 		this.tipoHabitacion = tipoHabitacion;

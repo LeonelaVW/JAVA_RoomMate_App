@@ -8,7 +8,7 @@ import java.io.IOException;
 import org.json.JSONArray;
 import org.json.JSONTokener;
 
-public class JsonUtiles {
+public class JsonUtilesHabitaciones {
 		
 		public static void grabar (JSONArray array) {
 			

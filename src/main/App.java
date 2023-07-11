@@ -1,15 +1,27 @@
 package main;
+import java.util.*;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import manejoJson.JsonUtilesHabitaciones;
+import clases.Hotel1;
+import manejoJson.*;
 
 public class App {
 
 	public static void main(String[] args) {
 		
+		Hotel1 hotel = new Hotel1();
+		Scanner teclado = new Scanner(System.in);
+		Hotel1.teclado = new Scanner(System.in);
+		Hotel1.mostrarMenuPrincipal(teclado);
+		System.out.println(manejoJson.JsonUtilesUsuarios.leer("usuarios.json"));
+		
+		
+		
+	}
+		/*
 		JSONArray conserjes = new JSONArray();
 		
 		JSONObject conserje1 = new JSONObject();
@@ -43,5 +55,5 @@ public class App {
 
 
 	}
-
+*/
 }

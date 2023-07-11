@@ -8,7 +8,7 @@ public class Habitacion {
 	private String estado;
 	private String motivoNoDisponibilidad;
 	private double precio;
-	private CategoriaHabitacion categoria;
+	private categoriaHabitacion categoria;
 	private boolean isFree;
 	
 	//Constructor
@@ -22,7 +22,7 @@ public class Habitacion {
 	 * @param isFree 
 	 */
 	public Habitacion(int numero, String tipo, String estado, String motivoNoDisponibilidad, double precio,
-			CategoriaHabitacion categoria, boolean isFree) {
+			categoriaHabitacion categoria, boolean isFree) {
 		super();
 		this.numero = numero;
 		this.tipo = tipo;
@@ -121,14 +121,14 @@ public class Habitacion {
 	/**
 	 * @return the categoria
 	 */
-	public CategoriaHabitacion getCategoria() {
+	public categoriaHabitacion getCategoria() {
 		return categoria;
 	}
 
 	/**
 	 * @param categoria the categoria to set
 	 */
-	public void setCategoria(CategoriaHabitacion categoria) {
+	public void setCategoria(categoriaHabitacion categoria) {
 		this.categoria = categoria;
 	}
 	

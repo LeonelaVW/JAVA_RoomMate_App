@@ -9,7 +9,12 @@ import org.json.JSONArray;
 import org.json.JSONTokener;
 
 public class JsonUtilesHabitaciones {
-		
+	JSONArray habitaciones = new JSONArray();
+
+	
+	
+	
+	
 		public static void grabar (JSONArray array) {
 			
 			try {

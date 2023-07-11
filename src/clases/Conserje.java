@@ -15,6 +15,10 @@ public class Conserje extends Usuario{
 		this.turno = turno;
 	}
 
+	public Conserje() {
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * @return the id
 	 */
@@ -42,7 +46,14 @@ public class Conserje extends Usuario{
 	public void setTurno(String turno) {
 		this.turno = turno;
 	}
-
+	
+	public int getidConserje() {
+		return idConserje;
+	}
+	public void setidConserje(int idConserje) {
+		this.idConserje = idConserje;
+	}
+	
 	@Override
 	public String toString() {
 		return "Conserje [idConserje=" + idConserje + ", turno=" + turno + ", getNombre()=" + getNombre() + ", getDni()=" + getDni()

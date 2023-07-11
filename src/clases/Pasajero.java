@@ -8,12 +8,18 @@ public class Pasajero extends Usuario{
 	
 	
 	//Constructor de la clase abstracta + atributos propios
+	
+	
 	public Pasajero(String nombre, int dni, String usuario, String contrasenia, String tipoDeUsuario, String ciudadDeOrigen, String domicilioDeOrigen) {
 		super(nombre, dni, usuario, contrasenia, tipoDeUsuario);
 		// TODO Auto-generated constructor stub
 		this.ciudadDeOrigen = ciudadDeOrigen;
 		this.domicilioDeOrigen = domicilioDeOrigen;
 		
+	}
+
+	public Pasajero() {
+		super();
 	}
 
 	//Getters y setters

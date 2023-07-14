@@ -13,10 +13,8 @@ public class App {
 	public static void main(String[] args) {
 		
 		Hotel1 hotel = new Hotel1();
-		Scanner teclado = new Scanner(System.in);
-		Hotel1.teclado = new Scanner(System.in);
-		Hotel1.mostrarMenuPrincipal(teclado);
-		System.out.println(manejoJson.JsonUtilesUsuarios.leer("usuarios.json"));
+		Hotel1.mostrarMenuPrincipal();
+		
 		
 		
 		

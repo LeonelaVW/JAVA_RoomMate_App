@@ -15,6 +15,14 @@ public class JsonUtilesHabitaciones {
 	
 	
 	
+		public JSONArray getHabitaciones() {
+		return habitaciones;
+	}
+
+	public void setHabitaciones(JSONArray habitaciones) {
+		this.habitaciones = habitaciones;
+	}
+
 		public static void grabar (JSONArray array) {
 			
 			try {

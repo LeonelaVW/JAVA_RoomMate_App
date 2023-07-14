@@ -76,14 +76,7 @@ public class Reserva {
 		System.out.println("Las habitaciones disponibles son: " + manejoJson.JsonUtilesUsuarios.leer("habitaciones.json"));
 	}
 	
-	public void hacerReserva(Reserva[] reservas2) {
-		Scanner scanner = new Scanner(System.in);
-		int e=scanner.nextInt();
-		System.out.println("Ingrese el numero de la habitacion que desee reservar: " + e);
-		System.out.println("La habitacion #" + e + " ha sido reservada correctamente");
-		
-	}
-	
+
 	
     }
 

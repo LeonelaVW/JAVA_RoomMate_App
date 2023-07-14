@@ -34,6 +34,10 @@ public class Habitacion {
 	}
 	//Metodos
 	
+	public Habitacion() {
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * @return the isFree
 	 */

@@ -1,7 +1,7 @@
 package clases;
 import org.json.*;
 import java.util.*;
-public abstract class Usuario {
+public class Usuario {
 
 	//Atributos de la superclase
 	private String nombre;
@@ -12,13 +12,6 @@ public abstract class Usuario {
 	private JSONArray usuarios;
 	
 	//Constructor usando campos
-	/**
-	 * @param nombre
-	 * @param dni
-	 * @param usuario
-	 * @param contrasenia
-	 * @param tipoDeUsuario
-	 */
 	public Usuario(String nombre, int dni, String usuario, String contrasenia, String tipoDeUsuario) {
 		super();
 		this.nombre = nombre;
@@ -46,12 +39,37 @@ public abstract class Usuario {
 	}
 
 
-	/**
-	 * @param nombre the nombre to set
-	 */
-	public void setNombre(String string) {
+	
+
+
+	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+
+
+
+	public void setDni(int dni) {
+		this.dni = dni;
+	}
+
+
+
+	public void setUsuario(String usuario) {
+		this.usuario = usuario;
+	}
+
+
+
+	public void setContrasenia(String contrasenia) {
+		this.contrasenia = contrasenia;
+	}
+
+
+
+	public void setUsuarios(JSONArray usuarios) {
+		this.usuarios = usuarios;
+	}
+
 
 
 	/**
@@ -62,13 +80,6 @@ public abstract class Usuario {
 	}
 
 
-	/**
-	 * @param dni the dni to set
-	 */
-	public void setDni(String string) {
-		this.dni = dni;
-	}
-
 
 	/**
 	 * @return the usuario
@@ -78,12 +89,6 @@ public abstract class Usuario {
 	}
 
 
-	/**
-	 * @param usuario the usuario to set
-	 */
-	public void setUsuario(String string) {
-		this.usuario = usuario;
-	}
 
 
 	/**
@@ -94,12 +99,8 @@ public abstract class Usuario {
 	}
 
 
-	/**
-	 * @param contrasenia the contrasenia to set
-	 */
-	public void setContrasenia(String string) {
-		this.contrasenia = contrasenia;
-	}
+	
+	
 
 
 	/**
@@ -119,7 +120,6 @@ public abstract class Usuario {
 	
 	//Método toString  (modificar)
 
-	@Override
 	public String toString() {
 		return "Usuario [nombre=" + nombre + ", dni=" + dni + ", usuario=" + usuario + ", contrasenia=" + contrasenia
 				+ ", tipoDeUsuario=" + tipoDeUsuario + "]";
